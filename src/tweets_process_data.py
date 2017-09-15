@@ -18,7 +18,7 @@ def extract_tweets_subset_from_csv(csv_file):
         finally:
             f.close()
 
-# parsing the tweets.csv as argument to the main function e.g 'python tweet_data_subset.py tweets.csv'
+# parsing the tweets.csv as an rgument to the main function e.g 'python tweets_process_data.py tweets.csv'
 if __name__ == "__main__":
     extract_tweets_subset_from_csv(sys.argv[1]) #argument parsing
 
